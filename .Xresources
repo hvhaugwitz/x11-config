@@ -1,0 +1,19 @@
+xterm*utf8: true
+xterm*utf8Title: true
+xterm*eightBitInput: false
+xterm*eightBitControl: false
+xterm*eightBitOutput: true
+
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 11
+
+xterm*termName: xterm-256color
+
+xterm*background: black
+xterm*foreground: white
+xterm*cursorColor: yellow
+xterm*cursorUnderLine: true
+
+xterm*loginShell: true
+xterm*internalBorder: 3
+xterm*saveLines: 32768
