@@ -20,4 +20,6 @@ if xinput list | grep -q "${TOUCHPAD_DEV}"; then
     xinput disable "${TOUCHPAD_DEV}"
 fi
 
+[ -f "$HOME/.xsession.local" ] && . "$HOME/.xsession.local"
+
 exec x-window-manager
