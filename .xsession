@@ -3,10 +3,11 @@
 
 [ -r "$HOME/.config/redshift.conf" ] && redshift &
 
-xautolock -time 5 -secure -locker 'i3lock -c 123456' &
-
 xset b off
 xset c 0
+xset s 180
+
+xss-lock -q -- i3lock -c 123456 &
 
 TRACKPOINT_DEV='TPPS/2 IBM TrackPoint'
 if xinput list | grep -q "${TRACKPOINT_DEV}"; then
